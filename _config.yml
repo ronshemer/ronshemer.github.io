@@ -21,16 +21,19 @@
 title: Lattice of Thought
 email: ronsheme.mail.tau@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Lattice of Thought, exploring structured ideas that build better software. 
+  Exploring structured ideas that build better software. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ronshemer
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
